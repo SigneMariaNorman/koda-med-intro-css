@@ -1,5 +1,5 @@
 p {
-    font-family: 'Copperplate', fantasy;
+    font-family: 'Lucida Console', sans-serif;
     font-size: 20px;
     color: 000000;
 }
@@ -7,10 +7,12 @@ p {
 body {
     background-color: #FAEBD7;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e0/K_Boye.jpg"); /* Länk till din bakgrundsbild */
-    background-size: contain; /* Gör att bilden täcker hela området */
+    background-size: 50%; /* Gör att bilden täcker hela området */
     background-blend-mode: overlay; /* Blandar färgen och bilden */
     background-repeat: no-repeat; /* Gör att bilden inte upprepas */
-    background-position: center; /* Centrerar bilden */
+    background-position: center 3px; /* Centrerar bilden */
+}
+#flytta-ned {
+    margin-top: 100px;
 }
 
-}

@@ -1,6 +1,6 @@
 p {
-    font-family: 'Lucida Console', sans-serif;
-    font-size: 20px;
+    font-family: 'Courier New'; /* Typsnitt för texten */
+    font-size: 17px;
     color: #CD853F; /* Färg på texten */
 }
 .paragraph-grupp {
@@ -13,13 +13,13 @@ body {
     background-size: 50%; /* Gör att bilden täcker hela området */
     background-blend-mode: overlay; /* Blandar färgen och bilden */
     background-repeat: no-repeat; /* Gör att bilden inte upprepas */
-    background-position: center 3px; /* Centrerar bilden */
+    background-position: center 0%; /* Centrerar bilden */
 }
 #flytta-ned {
     margin-top: 80px;
 }
 h1 {
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Courier New';
     font-size: 40px;
     color: #FFF5EE;  
     text-align: left;
@@ -27,9 +27,9 @@ h1 {
    
     
 }
-h3 {
-    font-family: 'Lucida Console', sans-serif;
-    font-size: 30px;
+h6 {
+    font-family: 'Courier New';
+    font-size: 20px;
     color: #CD853F; /* Färg på texten */
     text-align: left;
     margin-top: 20px;
@@ -44,15 +44,14 @@ h3 {
     background-position: left; /* Positionerar bakgrundsfärgen till vänster */
     border-radius: 10px; /* Rundade hörn */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga */
-    opacity: 0.3; /* Gör behållaren lite genomskinlig */
+    opacity: 0.1; /* Gör behållaren lite genomskinlig */
 }
-.button {
-    display: inline-block; /* Gör att knappen är inline-block */
-    padding: 10px 20px; /* Padding för knappen */
-    background-color: #8B4513; /* Bakgrundsfärg för knappen */
-    color: #FFF5EE; /* Textfärg för knappen */
-    text-decoration: none; /* Ingen understrykning på länken */
-    border-radius: 5px; /* Rundade hörn på knappen */
-    transition: background-color 0.3s ease; /* Övergångseffekt för bakgrundsfärgen */
-    font-family: 'Lucida Console', sans-serif; /* Typsnitt för knappen */
+a {
+    color: #8B4513; /* Färg på länkar */
+}
+footer {
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #CD853F; /* Färg på texten */
+    text-align: left; 
 }

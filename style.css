@@ -1,7 +1,7 @@
 p {
     font-family: 'Lucida Console', sans-serif;
     font-size: 20px;
-    color: 000000;  
+    color: #CD853F; /* Färg på texten */
 }
 .paragraph-grupp {
     margin-bottom: 40px; !important;
@@ -22,8 +22,27 @@ h1 {
     font-family: 'Lucida Console', sans-serif;
     font-size: 40px;
     color: #FFF5EE;  
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
-    background-color: #B8860B; /* Gyllene färg */
+   
+    
 }
-
+h3 {
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 30px;
+    color: #CD853F; /* Färg på texten */
+    text-align: left;
+    margin-top: 20px;
+}
+.container {
+    display: inline-block; /* Gör att behållaren är inline-block */
+    width: 25%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #B8860B; /* Bakgrundsfärg för behållaren */ 
+    background-position: left; /* Positionerar bakgrundsfärgen till vänster */
+    border-radius: 10px; /* Rundade hörn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga */
+    opacity: 0.3; /* Gör behållaren lite genomskinlig */
+}

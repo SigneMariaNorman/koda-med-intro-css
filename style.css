@@ -46,3 +46,13 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Skugga */
     opacity: 0.3; /* Gör behållaren lite genomskinlig */
 }
+.button {
+    display: inline-block; /* Gör att knappen är inline-block */
+    padding: 10px 20px; /* Padding för knappen */
+    background-color: #8B4513; /* Bakgrundsfärg för knappen */
+    color: #FFF5EE; /* Textfärg för knappen */
+    text-decoration: none; /* Ingen understrykning på länken */
+    border-radius: 5px; /* Rundade hörn på knappen */
+    transition: background-color 0.3s ease; /* Övergångseffekt för bakgrundsfärgen */
+    font-family: 'Lucida Console', sans-serif; /* Typsnitt för knappen */
+}
